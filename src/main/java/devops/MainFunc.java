@@ -1,20 +1,22 @@
 package devops;
-
 import java.util.Scanner;
 
 public class MainFunc {
 	Scanner scan = new Scanner(System.in);
+	static String name;
+	
+	public MainFunc(String name) {
+		MainFunc.name = name;
+	}
 	
 	public String leer()
 	{
 		return scan.nextLine();
 	}
 	
-	public static void main(String[] args) {
-		System.out.println("Hello world, trying...");  
+	public void printGreeting() {
+		System.out.println("Hello, " + name + "!");  
 	}
-	
-	String name;
 	
 	public String getName() {
 		return name;
