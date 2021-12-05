@@ -1,7 +1,5 @@
 package devops;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,8 +21,7 @@ public class MainTest {
 	}
 
 	@Test
-	public void test() {
+	public void testGetName() {
 		assert(m.getName().equals(t));
 	}
-
 }
