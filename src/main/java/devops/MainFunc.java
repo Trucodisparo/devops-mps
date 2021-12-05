@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class MainFunc {
 	Scanner scan = new Scanner(System.in);
-	static String name;
+	String name;
 	
 	public MainFunc(String name) {
-		MainFunc.name = name;
+		this.name = name;
 	}
 	
 	public String leer()

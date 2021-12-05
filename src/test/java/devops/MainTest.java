@@ -13,8 +13,7 @@ public class MainTest {
 
 	@Before
 	public void setUp() throws Exception {
-		m = new MainFunc();
-		m.setName(t);
+		m = new MainFunc(t);
 	}
 
 	@After
