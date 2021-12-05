@@ -36,7 +36,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>org.arpit.java2blog.AppMain</mainClass>
+                        <mainClass>org.mps.devops.Main</mainClass>
                     </manifest>
                 </archive>
             </configuration>
