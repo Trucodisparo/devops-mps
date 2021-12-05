@@ -36,6 +36,7 @@
             <configuration>
                 <archive>
                     <manifest>
+                    	<addClasspath>true</addClasspath>
                         <mainClass>mps.devops.Main</mainClass>
                     </manifest>
                 </archive>
